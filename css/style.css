@@ -16,6 +16,14 @@ body {
 
 /* ------------------------------------------------------------------------ */
 
+.menu {
+    cursor: pointer;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+
 .navegacionprincipal {
     width:80%;
     margin: 2rem auto;
