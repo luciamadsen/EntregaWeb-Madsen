@@ -1,0 +1,228 @@
+/* ______________________________ GLOBALES ___________________________ */
+
+body {
+    background-color: #6cb48c;
+    margin: 20px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.navegacionprincipal {
+    width:80%;
+    margin: 2rem auto;
+    list-style-type: none;
+    text-align: center;
+    font-size: 0;
+}
+
+.navegacionprincipal > ul li {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    background: #fff;
+}
+
+.navegacionprincipal li a {
+    display: block;
+    text-decoration: none;
+    font-size: medium;
+    line-height: 2.5rem;
+    color: #6cb48c;
+}
+
+.navegacionprincipal li ul {
+    position: absolute;
+    width: 0%;
+    overflow: hidden;
+}
+
+.navegacionprincipal li li{
+    display: block;
+    width: 100%;
+}
+
+
+
+/* ________________________________TIPOGRAFÍAS____________________________ */
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+}
+
+
+/* ______________________________ PRODUCTOS _______________________________ */
+
+.contendor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.row {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.row img{
+    border-radius: 5rem;
+}
+
+.boton {
+    background-color: azure;
+    color: black;
+    padding: 1rem 5rem;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3rem;
+    width: 50%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .row {
+        width: 100%;
+    }
+}
+
+.parteuno {
+    display: flex;
+} 
+
+.parteuno img {
+    width: 50%;
+}
+
+.partedos img {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    padding: 10px;
+}
+
+/* ______________________________PROXIMAMENTE_________________________________________ */
+
+.proximamente p {
+    /* margin: 100px; */
+    page-break-inside: avoid;
+}
+
+
+
+/* _______________________________BOTONES_______________________________________ */
+
+
+
+
+
+
+
+
+/* ____________________________INFORMACION______________________________________ */
+
+
+
+.infofotos {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infofotos img{
+    width: 50%;
+}
+
+.columna{
+    flex: 25%;
+    padding: 5px;
+}
+
+.columna img{
+    margin-top: 5px;
+    justify-content: space-between;
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem; 
+}
+
+@media (max-width: 600px){
+    .columna {
+        flex: 100%;
+    }
+}
+
+/* ____________________________quienes somos________________________________________ */
+
+.quien {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.quien img {
+  width: 35%;
+  margin-right: 20px;
+  border-radius: 3rem;
+}
+
+.quien p {
+  flex: 1;
+  font-size: 20px;
+  color:#fff;
+  
+}
+
+.introdos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center; 
+}
+
+/* --------------------------- FOOTER ---------------------------------- */
+.footer {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes img{
+    display: flex;
+    width: 5%;
+}
+
+
+
+
+
+
+
