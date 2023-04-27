@@ -50,6 +50,24 @@ body {
     width: 100%;
 }
 
+.navegacionPrincipal li:hover a {
+    background: #6cb48c;
+    border-radius: 2rem;
+    color: #ffffff;
+}
+
+.navegacionPrincipal li:hover ul {
+    width: 90%;
+    margin: 0 -4rem -4rem -4rem;
+    padding: 0 4rem 4rem 4rem;
+    z-index: 5;
+}
+
+.navegacionPrincipal li li a:hover {
+    background: hsl(147, 32%, 56%); 
+}
+
+
 
 /* ________________________________TIPOGRAFÍAS____________________________ */
 
