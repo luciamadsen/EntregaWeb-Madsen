@@ -1,0 +1,17 @@
+
+
+footer {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+
+    nav {
+        text-align: center;
+
+        img {
+            display: flex;
+            width: 0;
+        }
+    }
+}

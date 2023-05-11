@@ -1,0 +1,39 @@
+
+
+header {
+    background-color: #6cb48c;
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+        
+        ul {
+            
+            
+            li {
+                list-style: none;
+                cursor: pointer;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: black;
+                }
+
+                @media (max-width: 768px) {
+                    flex-wrap: wrap; 
+                    justify-content: center; 
+                    padding: 5px; 
+                    
+                    li {
+                      flex-basis: 100%; 
+                      text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
