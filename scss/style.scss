@@ -1,0 +1,15 @@
+// Nesting o anidamiento: nos yuada a ver de una manera mas visula la cascada d ehtml
+
+body {
+    background-color: #6cb48c;
+    margin: 20px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+
+}
+
+@import "component/header";
+@import "component/footer";
+@import "base/variable";
+
