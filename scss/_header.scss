@@ -12,12 +12,15 @@ header {
         border: 1px solid #ccc;
         
         ul {
+            display: flex;
+            text-align: center;
             
             
             li {
                 list-style: none;
                 cursor: pointer;
                 transition: color 0.3s ease;
+                padding: 10%;
 
                 &:hover {
                     color: black;

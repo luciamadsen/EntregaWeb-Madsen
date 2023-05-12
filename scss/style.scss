@@ -27,6 +27,66 @@ h2 {
 }
 
 
+.menu {
+    cursor: pointer;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navegacionprincipal {
+    width:80%;
+    margin: 2rem auto;
+    list-style-type: none;
+    text-align: center;
+    font-size: 0;
+}
+
+.navegacionprincipal > ul li {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    background: #fff;
+}
+
+.navegacionprincipal li a {
+    display: block;
+    text-decoration: none;
+    font-size: medium;
+    line-height: 2.5rem;
+    color: #6cb48c;
+}
+
+.navegacionprincipal li ul {
+    position: absolute;
+    width: 0%;
+    overflow: hidden;
+}
+
+.navegacionprincipal li li{
+    display: block;
+    width: 100%;
+}
+
+.navegacionPrincipal li:hover a {
+    background: #6cb48c;
+    border-radius: 2rem;
+    color: #ffffff;
+}
+
+.navegacionPrincipal li:hover ul {
+    width: 90%;
+    margin: 0 -4rem -4rem -4rem;
+    padding: 0 4rem 4rem 4rem;
+    z-index: 5;
+}
+
+.navegacionPrincipal li li a:hover {
+    background: hsl(147, 32%, 56%); 
+}
+
+
 .contendor {
     display: flex;
     justify-content: space-between;

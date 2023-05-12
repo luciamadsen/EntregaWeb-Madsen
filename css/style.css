@@ -9,10 +9,15 @@ header nav {
   padding: 10px;
   border: 1px solid #ccc;
 }
+header nav ul {
+  display: flex;
+  text-align: center;
+}
 header nav ul li {
   list-style: none;
   cursor: pointer;
   transition: color 0.3s ease;
+  padding: 10%;
 }
 header nav ul li:hover {
   color: black;
@@ -38,9 +43,9 @@ footer {
 footer nav {
   text-align: center;
 }
-footer nav img {
+footer nav .redes img {
   display: flex;
-  width: 0;
+  width: 10px;
 }
 
 body {
@@ -60,6 +65,64 @@ h1 {
 h2 {
   font-size: 30px;
   color: white;
+}
+
+.menu {
+  cursor: pointer;
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navegacionprincipal {
+  width: 80%;
+  margin: 2rem auto;
+  list-style-type: none;
+  text-align: center;
+  font-size: 0;
+}
+
+.navegacionprincipal > ul li {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  background: #fff;
+}
+
+.navegacionprincipal li a {
+  display: block;
+  text-decoration: none;
+  font-size: medium;
+  line-height: 2.5rem;
+  color: #6cb48c;
+}
+
+.navegacionprincipal li ul {
+  position: absolute;
+  width: 0%;
+  overflow: hidden;
+}
+
+.navegacionprincipal li li {
+  display: block;
+  width: 100%;
+}
+
+.navegacionPrincipal li:hover a {
+  background: #6cb48c;
+  border-radius: 2rem;
+  color: #ffffff;
+}
+
+.navegacionPrincipal li:hover ul {
+  width: 90%;
+  margin: 0 -4rem -4rem -4rem;
+  padding: 0 4rem 4rem 4rem;
+  z-index: 5;
+}
+
+.navegacionPrincipal li li a:hover {
+  background: hsl(147, 32%, 56%);
 }
 
 .contendor {
