@@ -5,7 +5,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: #6cb48c;
   padding: 10px;
   border: 1px solid #ccc;
 }
@@ -34,22 +34,8 @@ header nav ul li:hover {
   }
 }
 
-footer {
-  display: flex;
-  margin-top: 5rem;
-  margin-bottom: 1rem;
-  flex-direction: column;
-}
-footer nav {
-  text-align: center;
-}
-footer nav .redes img {
-  display: flex;
-  width: 10px;
-}
-
 body {
-  background-color: #6cb48c;
+  background-color: yellow;
   margin: 20px;
   padding: 0;
   font-family: "Work Sans", sans-serif;
@@ -81,14 +67,15 @@ h2 {
   text-align: center;
   font-size: 0;
 }
-
-.navegacionprincipal > ul li {
+.navegacionprincipal ul li {
   display: inline-block;
   width: 20%;
   position: relative;
-  background: #fff;
+  background: #6cb48c;
+  position: absolute;
+  width: 0%;
+  overflow: hidden;
 }
-
 .navegacionprincipal li a {
   display: block;
   text-decoration: none;
@@ -96,32 +83,22 @@ h2 {
   line-height: 2.5rem;
   color: #6cb48c;
 }
-
-.navegacionprincipal li ul {
-  position: absolute;
-  width: 0%;
-  overflow: hidden;
-}
-
 .navegacionprincipal li li {
   display: block;
   width: 100%;
 }
-
-.navegacionPrincipal li:hover a {
+.navegacionprincipal li:hover a {
   background: #6cb48c;
   border-radius: 2rem;
-  color: #ffffff;
+  color: #6cb48c;
 }
-
-.navegacionPrincipal li:hover ul {
+.navegacionprincipal li:hover ul {
   width: 90%;
   margin: 0 -4rem -4rem -4rem;
   padding: 0 4rem 4rem 4rem;
   z-index: 5;
 }
-
-.navegacionPrincipal li li a:hover {
+.navegacionprincipal li li a:hover {
   background: hsl(147, 32%, 56%);
 }
 
@@ -136,7 +113,6 @@ h2 {
   display: flex;
   vertical-align: middle;
 }
-
 .row img {
   border-radius: 3rem;
   width: 50%;
@@ -165,28 +141,33 @@ h2 {
 .parteuno {
   margin: 150px;
   display: flex;
+  margin-top: 20px;
 }
-
 .parteuno img {
   width: 50%;
 }
 
-.partedos img {
+.partedos {
   display: flex;
+}
+.partedos img {
   width: 40%;
   align-items: center;
   padding: 10px;
   border-radius: 3rem;
 }
 
+.proximamente {
+  display: flex;
+  justify-content: center;
+}
 .proximamente p {
+  color: black;
   page-break-inside: avoid;
   margin-top: 500px;
   margin-bottom: 500px;
   left: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -197,7 +178,6 @@ h2 {
   display: flex;
   flex-wrap: wrap;
 }
-
 .infofotos img {
   width: 50%;
 }
@@ -206,7 +186,6 @@ h2 {
   flex: 25%;
   padding: 5px;
 }
-
 .columna img {
   margin-top: 5px;
   justify-content: space-between;
@@ -226,17 +205,15 @@ h2 {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
 .quien img {
   width: 35%;
   margin-right: 20px;
   border-radius: 3rem;
 }
-
 .quien p {
   flex: 1;
   font-size: 20px;
-  color: #fff;
+  color: orangered;
 }
 
 .introdos {
@@ -246,6 +223,24 @@ h2 {
   margin-top: 20px;
   text-align: center;
   justify-content: center;
+}
+
+footer {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+footer div {
+  height: 100px;
+  width: 100px;
+}
+footer nav {
+  text-align: center;
+}
+footer nav .redes img {
+  display: flex;
+  width: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
