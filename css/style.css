@@ -216,17 +216,15 @@ footer {
   margin-top: 5rem;
   margin-bottom: 1rem;
   flex-direction: column;
+  text-align: center;
 }
-footer div {
+footer .redes {
   height: 100px;
   width: 100px;
 }
-footer nav {
-  text-align: center;
-}
-footer nav .redes img {
+footer .redes img {
   display: flex;
-  width: 10%;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
