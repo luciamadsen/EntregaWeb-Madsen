@@ -3,8 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Descubrí nuevas alternativas ecológicas para poder tener una vida más sostenible!">
+        <meta name="keywords" content="vida sustentable, alternativa ecológica, vida ecológica, alternativas sustentables, ecoify">
+        <meta name="author" content="Lucía Madsen">
+
+        <meta property="og:title" content="Alternativas ecológicas con ECOIFY">
+        <meta property="og:description" content="Descubrí nuevas alternativas ecológicas para poder tener una vida más sostenible!">
+
     <link rel="stylesheet" href="css/style.css">
     <title>Ecoify</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,20 +23,25 @@
 
 
 <body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg ">
 
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <a class="navbar-brand" href="#">
+                <img src="./imagenes/logofinal.webp" alt="Ecoify" width="60" height="50">
+            </a>
+
             <div class="container-fluid">
               <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
                 <span class="navbar-toggler-icon"></span>
               </button>
+
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
 
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="pages/informacion.html">Información</a></li>
-                    <li><a href="pages/quienessomos.html">Quienes somos</a></li>
+                    <li><a href="pages/nosotros.html">Nosotros</a></li>
                     <li><a href="pages/productos.html">Productos</a></li>
                     <li><a href="pages/mapa.html">Mapa</a></li>
 
@@ -39,23 +51,31 @@
           </nav>
     </header>
 
-    <h2>Te damos la bienvenida a ECOIFY</h2>
+    <div class="body">
+        <h2>Te damos la bienvenida a ECOIFY</h2>
 
-    <p class="intro"> Encontra alternativas ecologicas con nosotros. Cada pequeña acción cuenta. ¡Seamos el cambio que queremos ver en el mundo!</p>
+        <p class="intro"> Encontra alternativas ecologicas con nosotros. Cada pequeña acción cuenta. ¡Seamos el cambio que queremos ver en el mundo!</p>
 
-    <div class="introdos">
-        <img src="imagenes/logo.png" alt="Logo de Ecoify">
+        <div class="introdos">
+            <img src="imagenes/logo.webp" alt="Logo de Ecoify">
+        </div>
     </div>
 
-    <footer class="footer">
-        <div class="redes">
-            <a href="https://es-la.facebook.com/" target="_blank">
-                <img src="imagenes/facebook.png" alt="Logo de facebook">
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="imagenes/instagram.png" alt="Logo de instagram">
-            </a>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Ecoify</span>
         </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="https://es-la.facebook.com/">
+            <img src="./imagenes/facebook.webp" class="flex-item" height="40" alt="Facebook futuro de Ecoify"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/"> 
+            <img src="./imagenes/instagram.webp" class="flex-item" height="40" alt="Instagram futuro de Ecoify"></a></li>
+        </ul>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>

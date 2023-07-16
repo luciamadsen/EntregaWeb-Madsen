@@ -1,0 +1,16 @@
+@import "./variable";
+
+@mixin parrafo($padding, $border){
+    border:$border;
+    padding:$padding;
+}
+
+@mixin parrafo($padding, $border){
+    border:$border;
+    padding:$padding;
+}
+
+@mixin body($back-color){
+    background-color:$back-color;
+}
+

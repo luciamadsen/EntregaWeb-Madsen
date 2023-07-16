@@ -1,0 +1,43 @@
+@import '../base/variable';
+@import '../base/mixins';
+
+.header{
+    background-color: peru;
+}
+
+header {
+    background-color: red;
+
+    img {
+        padding-left: 10px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 1px;
+        border: 0cap;
+
+    ul {
+        display: flex;
+        text-align: center;
+    li {
+        list-style: none;
+        transition: color 0.3s ease;
+        padding: 3%;
+        
+         @media (max-width: 768px) {
+        flex-wrap: wrap; 
+        justify-content: center; 
+        padding: 5px; 
+         li {
+        flex-basis: 100%; 
+        text-align: center;
+                }
+            }
+        }
+    }
+}
+}
